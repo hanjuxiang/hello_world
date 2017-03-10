@@ -11,6 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 public class hello extends HttpServlet {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
 	 * The doGet method of the servlet. <br>
 	 *
 	 * This method is called when a form has its tag value method equals to get.
@@ -60,6 +65,7 @@ public class hello extends HttpServlet {
 		out.print("    This is ");
 		out.print(this.getClass());
 		out.println(", using the POST method");
+		out.println(", using the POST method123");
 		out.println("  </BODY>");
 		out.println("</HTML>");
 		out.flush();
